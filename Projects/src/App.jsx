@@ -5,6 +5,7 @@ import "./App.css";
 import Todo from "./Projects/Todo";
 import Counter from "./Projects/Counter";
 import Fetch from "./Projects/Fetch";
+import Form from "./Projects/Form";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Todo />
       <Counter />
       <Fetch />
+      <Form />
     </>
   );
 }
